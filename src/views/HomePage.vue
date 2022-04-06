@@ -1,8 +1,8 @@
 <template>
   <ion-page>
     <ion-header :translucent="true">
-      <ion-toolbar>
-        <ion-title>Blank</ion-title>
+      <ion-toolbar color="primary">
+        <ion-title size="large" >Ma météo</ion-title>
       </ion-toolbar>
     </ion-header>
     
@@ -12,11 +12,14 @@
           <ion-title size="large">Blank</ion-title>
         </ion-toolbar>
       </ion-header>
+     
+
+     <div id= "date">
+      
+      
+     </div>
     
-      <div id="container">
-        <strong>Ready to create an app?</strong>
-        <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-      </div>
+     
     </ion-content>
   </ion-page>
 </template>
@@ -47,6 +50,14 @@ export default defineComponent({
   top: 50%;
   transform: translateY(-50%);
 }
+
+#date{
+   text-align: center;
+   font-weight: bold;
+   font-size: large;
+}
+
+
 
 #container strong {
   font-size: 20px;
