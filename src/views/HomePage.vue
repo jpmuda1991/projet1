@@ -15,12 +15,18 @@
      
 
      <div id= "date">
-      
+      <p> date </p>
       
      </div>
-    
+
+     
      
     </ion-content>
+
+ <div id="footer"> <p> Philippe Mudaheranwa</p>  </div>
+    
+
+
   </ion-page>
 </template>
 
@@ -57,6 +63,15 @@ export default defineComponent({
    font-size: large;
 }
 
+#footer {
+  position: bottom;
+  height: 20%;
+  font-size: 40px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: lightblue;
+}
 
 
 #container strong {
